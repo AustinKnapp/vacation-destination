@@ -14,6 +14,13 @@ h3 {
     font-family: Impact, Charcoal, sans-serif;
     padding: 10px;
 }
+
+.location_image {
+    display: none;
+    height: 370px;
+    width: 370px;
+}
+
 p {
     font-size: 100%;
 }

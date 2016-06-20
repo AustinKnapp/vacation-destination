@@ -1,79 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-<!-- stylesheets -->
+    <!-- stylesheets -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-<!-- javascript -->
+    <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   <script src="js/scripts.js"></script>
-<!-- page info -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- page info -->
     <title>Vacation Destination</title>
-  </head>
-  <body>
-    <!-- Headline Div -->
-    <div class="container" id="headline">
-          <h1>FIND THE PERFECT VACATION SPOT!</h1>
-          <h3>Vacation that fits your interest: Learn more</h3>
+</head>
+<body>
+    <div>
+        <!-- Headline Div -->
+        <div class="container" id="headline">
+            <h1>FIND THE PERFECT VACATION SPOT!</h1>
+            <h3>Vacation that fits your interest: Learn more</h3>
         </div>
-        
-<!-- Intro Div -->
+
+        <!-- Intro Div -->
         <div id="intro" class="container">
+            <form>
+                <div class="form-group">
+                    <label for="friends">Do you enjoy traveling with friends?</label>
+                    <input type="text" id="friends" class="form-control">
+                </div>
+            </div>
+            <!-- second div -->
+            <div class="container" id="intro">
 
-             <form>
-               <div class="form-group">
-                 <label for="friends">Do you enjoy traveling with friends?</label>
-                 <input type="text" id="friends" class="form-control">
-               </div>
-
-<!-- second div -->
-           <div class="container" id="intro">
-
-                <form>
-                  <div class="form-group">
+                <div class="form-group">
                     <label for="relax">Is this trip for relaxation?</label>
                     <input type="text" id="relax" class="form-control">
-                  </div>
-<!-- third div -->
-        <div class="container" id="intro">
-
-             <form>
-               <div class="form-group">
-                 <label for="sights">Is sightseeing important?</label>
-                 <input type="text" id="sights" class="form-control">
-               </div>
-<!-- fourth div -->
-        <div class="container" id="intro">
-
-          <form>
-            <div class="form-group">
-              <label for="weather">Does weather matter?</label>
-              <input type="text" id="weather" class="form-control">
+                </div>
             </div>
-<!-- fifth div -->
-<div class="container" id="intro">
 
-  <form>
-    <div class="form-group">
-      <label for="beach">Are beaches important?</label>
-      <input type="text" id="beach" class="form-control">
+            <!-- third div -->
+            <div class="container" id="intro">
+
+                <div class="form-group">
+                    <label for="sights">Is sightseeing important?</label>
+                    <input type="text" id="sights" class="form-control">
+                </div>
+            </div>
+
+            <!-- fourth div -->
+            <div class="container" id="intro">
+
+                <div class="form-group">
+                    <label for="weather">Does weather matter?</label>
+                    <input type="text" id="weather" class="form-control">
+                </div>
+            </div>
+
+            <!-- fifth div -->
+            <div class="container" id="intro">
+
+                <div class="form-group">
+                    <label for="beach">Are beaches important?</label>
+                    <input type="text" id="beach" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="container">
+                <button type="submit">enter</button>
+            </div>
+        </form>
+    </div>
+    <!-- images -->
+    <div class="container">
+        <img class="location_image" id="London" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9uWX4MvVyDtq-TZSS32mCEzCb2QqrIi1_VbD2Wi34sgSWc9F8" alt="London">
+        <img class="location_image" id="Bora_Bora" src="http://www.blacktomato.com/wp-content/uploads/2012/07/four-seasons-borabora.jpg" alt="Bora Bora">
+        <img class="location_image" id="Greece" src="http://luxurygreecedmc.com/wp-content/uploads/2015/11/main.jpg" alt="Greece">
     </div>
 
-  </div>
-     <button type="submit">enter</button>
-   </form>
- </div>
- <!-- images -->
-<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9uWX4MvVyDtq-TZSS32mCEzCb2QqrIi1_VbD2Wi34sgSWc9F8" alt="London" height="370" width="370">
-<img src="http://www.blacktomato.com/wp-content/uploads/2012/07/four-seasons-borabora.jpg" alt="Bora Bora" height="370" width="370">
-<img src="http://luxurygreecedmc.com/wp-content/uploads/2015/11/main.jpg" alt="Bora Bora" height="370" width="370">
 
 
+</div>
 
-           </div>
 
-
-  </body>
+</body>
 </html>
